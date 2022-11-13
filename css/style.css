@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 5px solid red; */
+}
+
+body {
+    margin: 20px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    border: 1px white solid;
+}
+
+.main-container {
+    margin: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+a {
+    color: black;
+}
+
+.item {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.pages {
+    list-style-type: none;
+    display: none;
+}
+
+.under-text {
+    position: relative;
+    left: 30px;
+    color: gray;
+    font-style: italic;
+}
+
+.under-text1 {
+    color: gray;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.under-text-1 {
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.home>a {
+    color: lightblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1326px;
+    height: 800px;
+    display: flex;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.left {
+    display: flex;
+    /*background-color: green;*/
+    width: 1200px;
+    height: 500px;
+    margin: 10px;
+    opacity: 80%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    /*background-color: burlywood;*/
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-top: 9.2px;
+    text-align: center;
+}
+
+.item-img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    opacity: 80%;
+}
+
+.item-img2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+    opacity: 80%;
+}
+
+.item-img3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    background-color: yellow;
+    opacity: 80%;
+}
+
+.item-img4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    background-color: teal;
+    opacity: 80%;
+}
+
+.middle {
+    position: relative;
+    /* left: 100px; */
+    bottom: 100px;
+    padding-left: 100px;
+}
+
+.text-m {
+    position: relative;
+    /* left: 80px; */
+    padding-bottom: 50px;
+    padding-left: 80px;
+    left: 14em;
+}
+
+.m-latest {
+    display: flex;
+    gap: 30px;
+    left: 20em;
+}
+
+.next {
+    position: relative;
+    border: 2px solid lightblue;
+    top: 150px;
+}
+
+.prev {
+    position: relative;
+    border: 2px solid lightblue;
+    top: 150px;
+}
+
+.middle-1 {}
+
+.w-latest {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    /* left: 100px; */
+    padding-left: 100px;
+    left: 20em;
+}
+
+.middle-2 {
+    position: relative;
+    top: 100px;
+}
+
+.k-latest {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    /* left: 100px; */
+    padding-left: 100px;
+    left: 20em;
+    bottom: 7em;
+}
+
+.text-w {
+    position: relative;
+    /* left: 180px; */
+    padding-bottom: 50px;
+    padding-left: 180px;
+    left: 15em;
+}
+
+.text-k {
+    position: relative;
+    /* left: 180px; */
+    padding-bottom: 10px;
+    padding-left: 180px;
+    left: 15em;
+    bottom: 7em;
+}
+
+.m-caption {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    bottom: 90px;
+}
+
+.w-caption {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+
+.k-caption {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    top: 110px;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    color: white;
+    font-weight: bolder;
+    background-color: lightcoral;
+    opacity: 30%;
+    font-style: bold;
+    position: relative;
+    left: 70px;
+    top: 20px;
+    border: none;
+}
+
+.copy-r {
+    text-align: center;
+    margin-top: 10em;
+}
+
+.copy-l {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
